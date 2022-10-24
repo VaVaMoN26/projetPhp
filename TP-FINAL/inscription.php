@@ -3,8 +3,10 @@
     LA DECLARATION DES VARIABLES
     ET LA GESTION DES ERREURS
 -->
+<?php
+include "db.php"
 
-
+?>
 
 <!DOCTYPE html>
 <html lang="en">
