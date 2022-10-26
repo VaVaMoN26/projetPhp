@@ -290,9 +290,9 @@ section {
                     margin-left: 1rem;
                     position: relative;
                     span {
-                        position: absolute;
+                        position: relative;
                         top: 0;
-                        left: 0;
+                        left: -500;
                         height: 100%;
                         background-color: var(--color-secondary);
                         transition: all .4s ease-in-out;
