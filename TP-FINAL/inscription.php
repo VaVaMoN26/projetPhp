@@ -14,7 +14,7 @@ if (isset($_POST['enregistrer'])) {
   $mdp = $_POST['password'];
 
 
-  $req = "INSERT INTO client(nom, prenom, email, password) VALUES(?,?,?,?)";
+  $req = "INSERT INTO tpfinal(nom, prenom, email, password) VALUES(?,?,?,?)";
   $execute = $pdo->prepare($req);
   $stm = $execute->execute([$nom, $prenom, $email, $mdp]);
   echo "<center>inscription effectué avec success !</center>";
